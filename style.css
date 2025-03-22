@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5e1c0;
+    font-family: 'Arial', sans-serif;
+}
+
+.Flowers__Love {
+    background-color: #fae2bf;
+    color: #000;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Flower', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Flowers__Love p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .Flowers__Love {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 200px;
+    }
+}
